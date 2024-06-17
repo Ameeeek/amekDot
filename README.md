@@ -41,8 +41,21 @@ yay -S stow
 
 # usage
 
+buat pake dotfilesmu, ikuti ini
+
 ```
 # clone dlu reponya, baru masuk ke direktorinya
 stow .
 # simpel kan ? wkkw
+```
+
+buat tambahin dotfiles, atau konfig lain tinggal tambahin
+
+```
+# backup dulu konfig orinya
+mv ~/original/path/config/ ~/original/path/configbak
+# example
+mv ~/.config/kitty ~/.config/kittyBak
+# another
+mv ~/.zshrc ~/.zshrcBak
 ```
