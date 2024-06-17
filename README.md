@@ -21,6 +21,10 @@ yang jelas ini itu beda lagi sama tempatku untuk simpan dan kelola i ricing ku, 
     - zsh-syntax-highlighting
     - zsh-history-substring-search (ctrl + p, buat masuk)
 
+### important note
+
+dotfiles kittynya itu nda komplit, jadi kalo bisa fokus saja di bagian pluginnya, sama aliasesnya, karena itu yang penting, sisanya bisa mu custom sendiri lah karena tampilan ji, mengingat ini itu cuman hasil fork dari ricinganya orang, tapi kalo moko cek i bisa cek disini : https://github.com/prasanthrangan/hyprdots
+
 # Requirements
 
 sebelum mujalankan ini, pastikan dulu sudah terinstall
