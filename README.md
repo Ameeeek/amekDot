@@ -25,7 +25,7 @@ yang jelas ini itu beda lagi sama tempatku untuk simpan dan kelola i ricing ku, 
 
 sebelum mujalankan ini, pastikan dulu sudah terinstall
 
-## GIT
+## Git
 
 pake lah package manager apapun itu, tapi waktuku tulis ini readmenya pake arch ka, jadi pake yay
 
@@ -52,10 +52,15 @@ stow .
 buat tambahin dotfiles, atau konfig lain tinggal tambahin
 
 ```
-# backup dulu konfig orinya
+# tinggal pindahin filenya ke file dotfilesmu (ini dalam kondisi dalam direktori dotfiles)
+cp ~/.zshrc .
+# jangan lupa backup konfig orinya
 mv ~/original/path/config/ ~/original/path/configbak
 # example
 mv ~/.config/kitty ~/.config/kittyBak
 # another
 mv ~/.zshrc ~/.zshrcBak
+
+# lastly, tinggal jalanin stownya
+stow .
 ```
