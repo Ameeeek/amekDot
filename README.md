@@ -20,6 +20,7 @@ yang jelas ini itu beda lagi sama tempatku untuk simpan dan kelola i ricing ku, 
     - zsh-autosuggestions (ctrl + n, buat masuk)
     - zsh-syntax-highlighting
     - zsh-history-substring-search (ctrl + p, buat masuk)
+- waybar
 
 ### important note
 
